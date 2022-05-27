@@ -13,10 +13,10 @@ html{
      margin:0;
     }
 .title{
-    background-color: #f18973;
     color:#fff;
-    text-align: center;
-    margin: 0%;
+    align-content: center;
+    display: flex;
+    
 }
 .pageContainer{ /*this will allow the page to technically be displayed in grid format.
     the footer will be at the bottom of the page.
@@ -51,11 +51,53 @@ header a:hover{
     width: 5rem;
     height: 5rem;
     display:flex;
-    margin: 3rem;
+    
 }
 footer{
     background-color:#f18973;
     text-align: center;
     color:#fff;
 
+}
+#wm1,#wm2,#wm3{
+    height: 17rem;
+    width: 12.5rem;
+}
+#banimg{
+    width:100%;
+    border-style: double ; 
+    border-color:#bc5a45 ;
+    
+}
+main{
+    background-color:#f4e1d2 ;
+}
+.banimg{
+    position: relative;
+
+}
+#save{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px ;
+    color:#bc5a45;
+    text-align: center;
+}
+#save:hover{
+    color:goldenrod;
+}
+#toy1,#toy2,#toy3{
+    height: 15rem;
+    width: 15rem;
+}
+#dec1, #dec2, #dec3{
+    height:20rem;
+    width:13rem;
+}
+.allProductContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
 }
